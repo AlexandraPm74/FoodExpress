@@ -36,3 +36,6 @@ $('a[href*="#"]')
     }
   });
 })
+window.onload=function(){
+  getElementsByClassName('.modalDialog').style.display='block';
+}
